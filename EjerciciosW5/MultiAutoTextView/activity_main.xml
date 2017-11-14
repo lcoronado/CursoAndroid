@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.imt.multiautotextcomplete.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <MultiAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idAutoCompTextView"
+        android:completionThreshold="1" />
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Text: \n Arjun , Ankit , Anuradha ,
+         Amreen , Abhishek , Arvind , Amit , Bharat , Chaitanya ,
+          Chitra , Darshan , Darsheel , Deven , Faizal , Fayyaz ,
+           Ganesh , Girish ,Heena , Hemant , Irfan , Jagdish , Jeel ,
+            Kaushik , Kapil , Keshav , Manish , Mayuri , Manali ,
+            Nikita , Pramod , Pratik , Puja , Ravi , Raj , Reshma"/>
+
+</LinearLayout>
